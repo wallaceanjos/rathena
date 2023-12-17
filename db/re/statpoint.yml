@@ -23,562 +23,2009 @@
 #
 ###########################################################################
 # - Level             BaseLevel required.
-#   Points            Total status points given from BaseLevel 1 to 'Level'.
-#   TraitPoints       Total trait points given from BaseLevel 1 to 'Level'.
+#   Points            Total status points given from BaseLevel 1 to 'Level
 ###########################################################################
 
 Header:
-  Type: STATPOINT_DB
-  Version: 2
+    Type: STATPOINT_DB
+    Version: 2
 
 Body:
-  - Level: 1
-    Points: 48
-  - Level: 2
-    Points: 51
-  - Level: 3
-    Points: 54
-  - Level: 4
-    Points: 57
-  - Level: 5
-    Points: 60
-  - Level: 6
-    Points: 64
-  - Level: 7
-    Points: 68
-  - Level: 8
-    Points: 72
-  - Level: 9
-    Points: 76
-  - Level: 10
-    Points: 80
-  - Level: 11
-    Points: 85
-  - Level: 12
-    Points: 90
-  - Level: 13
-    Points: 95
-  - Level: 14
-    Points: 100
-  - Level: 15
-    Points: 105
-  - Level: 16
-    Points: 111
-  - Level: 17
-    Points: 117
-  - Level: 18
-    Points: 123
-  - Level: 19
-    Points: 129
-  - Level: 20
-    Points: 135
-  - Level: 21
-    Points: 142
-  - Level: 22
-    Points: 149
-  - Level: 23
-    Points: 156
-  - Level: 24
-    Points: 163
-  - Level: 25
-    Points: 170
-  - Level: 26
-    Points: 178
-  - Level: 27
-    Points: 186
-  - Level: 28
-    Points: 194
-  - Level: 29
-    Points: 202
-  - Level: 30
-    Points: 210
-  - Level: 31
-    Points: 219
-  - Level: 32
-    Points: 228
-  - Level: 33
-    Points: 237
-  - Level: 34
-    Points: 246
-  - Level: 35
-    Points: 255
-  - Level: 36
-    Points: 265
-  - Level: 37
-    Points: 275
-  - Level: 38
-    Points: 285
-  - Level: 39
-    Points: 295
-  - Level: 40
-    Points: 305
-  - Level: 41
-    Points: 316
-  - Level: 42
-    Points: 327
-  - Level: 43
-    Points: 338
-  - Level: 44
-    Points: 349
-  - Level: 45
-    Points: 360
-  - Level: 46
-    Points: 372
-  - Level: 47
-    Points: 384
-  - Level: 48
-    Points: 396
-  - Level: 49
-    Points: 408
-  - Level: 50
-    Points: 420
-  - Level: 51
-    Points: 433
-  - Level: 52
-    Points: 446
-  - Level: 53
-    Points: 459
-  - Level: 54
-    Points: 472
-  - Level: 55
-    Points: 485
-  - Level: 56
-    Points: 499
-  - Level: 57
-    Points: 513
-  - Level: 58
-    Points: 527
-  - Level: 59
-    Points: 541
-  - Level: 60
-    Points: 555
-  - Level: 61
-    Points: 570
-  - Level: 62
-    Points: 585
-  - Level: 63
-    Points: 600
-  - Level: 64
-    Points: 615
-  - Level: 65
-    Points: 630
-  - Level: 66
-    Points: 646
-  - Level: 67
-    Points: 662
-  - Level: 68
-    Points: 678
-  - Level: 69
-    Points: 694
-  - Level: 70
-    Points: 710
-  - Level: 71
-    Points: 727
-  - Level: 72
-    Points: 744
-  - Level: 73
-    Points: 761
-  - Level: 74
-    Points: 778
-  - Level: 75
-    Points: 795
-  - Level: 76
-    Points: 813
-  - Level: 77
-    Points: 831
-  - Level: 78
-    Points: 849
-  - Level: 79
-    Points: 867
-  - Level: 80
-    Points: 885
-  - Level: 81
-    Points: 904
-  - Level: 82
-    Points: 923
-  - Level: 83
-    Points: 942
-  - Level: 84
-    Points: 961
-  - Level: 85
-    Points: 980
-  - Level: 86
-    Points: 1000
-  - Level: 87
-    Points: 1020
-  - Level: 88
-    Points: 1040
-  - Level: 89
-    Points: 1060
-  - Level: 90
-    Points: 1080
-  - Level: 91
-    Points: 1101
-  - Level: 92
-    Points: 1122
-  - Level: 93
-    Points: 1143
-  - Level: 94
-    Points: 1164
-  - Level: 95
-    Points: 1185
-  - Level: 96
-    Points: 1207
-  - Level: 97
-    Points: 1229
-  - Level: 98
-    Points: 1251
-  - Level: 99
-    Points: 1273
-  - Level: 100
-    Points: 1295
-  - Level: 101
-    Points: 1318
-  - Level: 102
-    Points: 1341
-  - Level: 103
-    Points: 1364
-  - Level: 104
-    Points: 1387
-  - Level: 105
-    Points: 1410
-  - Level: 106
-    Points: 1433
-  - Level: 107
-    Points: 1456
-  - Level: 108
-    Points: 1479
-  - Level: 109
-    Points: 1502
-  - Level: 110
-    Points: 1525
-  - Level: 111
-    Points: 1549
-  - Level: 112
-    Points: 1573
-  - Level: 113
-    Points: 1597
-  - Level: 114
-    Points: 1621
-  - Level: 115
-    Points: 1645
-  - Level: 116
-    Points: 1669
-  - Level: 117
-    Points: 1693
-  - Level: 118
-    Points: 1717
-  - Level: 119
-    Points: 1741
-  - Level: 120
-    Points: 1765
-  - Level: 121
-    Points: 1790
-  - Level: 122
-    Points: 1815
-  - Level: 123
-    Points: 1840
-  - Level: 124
-    Points: 1865
-  - Level: 125
-    Points: 1890
-  - Level: 126
-    Points: 1915
-  - Level: 127
-    Points: 1940
-  - Level: 128
-    Points: 1965
-  - Level: 129
-    Points: 1990
-  - Level: 130
-    Points: 2015
-  - Level: 131
-    Points: 2041
-  - Level: 132
-    Points: 2067
-  - Level: 133
-    Points: 2093
-  - Level: 134
-    Points: 2119
-  - Level: 135
-    Points: 2145
-  - Level: 136
-    Points: 2171
-  - Level: 137
-    Points: 2197
-  - Level: 138
-    Points: 2223
-  - Level: 139
-    Points: 2249
-  - Level: 140
-    Points: 2275
-  - Level: 141
-    Points: 2302
-  - Level: 142
-    Points: 2329
-  - Level: 143
-    Points: 2356
-  - Level: 144
-    Points: 2383
-  - Level: 145
-    Points: 2410
-  - Level: 146
-    Points: 2437
-  - Level: 147
-    Points: 2464
-  - Level: 148
-    Points: 2491
-  - Level: 149
-    Points: 2518
-  - Level: 150
-    Points: 2545
-  - Level: 151
-    Points: 2573
-  - Level: 152
-    Points: 2601
-  - Level: 153
-    Points: 2629
-  - Level: 154
-    Points: 2657
-  - Level: 155
-    Points: 2685
-  - Level: 156
-    Points: 2713
-  - Level: 157
-    Points: 2741
-  - Level: 158
-    Points: 2770
-  - Level: 159
-    Points: 2799
-  - Level: 160
-    Points: 2828
-  - Level: 161
-    Points: 2857
-  - Level: 162
-    Points: 2886
-  - Level: 163
-    Points: 2915
-  - Level: 164
-    Points: 2944
-  - Level: 165
-    Points: 2974
-  - Level: 166
-    Points: 3004
-  - Level: 167
-    Points: 3034
-  - Level: 168
-    Points: 3064
-  - Level: 169
-    Points: 3094
-  - Level: 170
-    Points: 3124
-  - Level: 171
-    Points: 3154
-  - Level: 172
-    Points: 3185
-  - Level: 173
-    Points: 3216
-  - Level: 174
-    Points: 3247
-  - Level: 175
-    Points: 3278
-  - Level: 176
-    Points: 3309
-  - Level: 177
-    Points: 3340
-  - Level: 178
-    Points: 3371
-  - Level: 179
-    Points: 3403
-  - Level: 180
-    Points: 3435
-  - Level: 181
-    Points: 3467
-  - Level: 182
-    Points: 3499
-  - Level: 183
-    Points: 3531
-  - Level: 184
-    Points: 3563
-  - Level: 185
-    Points: 3595
-  - Level: 186
-    Points: 3628
-  - Level: 187
-    Points: 3661
-  - Level: 188
-    Points: 3694
-  - Level: 189
-    Points: 3727
-  - Level: 190
-    Points: 3760
-  - Level: 191
-    Points: 3793
-  - Level: 192
-    Points: 3826
-  - Level: 193
-    Points: 3860
-  - Level: 194
-    Points: 3894
-  - Level: 195
-    Points: 3928
-  - Level: 196
-    Points: 3962
-  - Level: 197
-    Points: 3996
-  - Level: 198
-    Points: 4030
-  - Level: 199
-    Points: 4064
-  - Level: 200
-    Points: 4099
-  - Level: 201
-    Points: 4099
-    TraitPoints: 3
-  - Level: 202
-    Points: 4099
-    TraitPoints: 6
-  - Level: 203
-    Points: 4099
-    TraitPoints: 9
-  - Level: 204
-    Points: 4099
-    TraitPoints: 12
-  - Level: 205
-    Points: 4099
-    TraitPoints: 19
-  - Level: 206
-    Points: 4099
-    TraitPoints: 22
-  - Level: 207
-    Points: 4099
-    TraitPoints: 25
-  - Level: 208
-    Points: 4099
-    TraitPoints: 28
-  - Level: 209
-    Points: 4099
-    TraitPoints: 31
-  - Level: 210
-    Points: 4099
-    TraitPoints: 38
-  - Level: 211
-    Points: 4099
-    TraitPoints: 41
-  - Level: 212
-    Points: 4099
-    TraitPoints: 44
-  - Level: 213
-    Points: 4099
-    TraitPoints: 47
-  - Level: 214
-    Points: 4099
-    TraitPoints: 50
-  - Level: 215
-    Points: 4099
-    TraitPoints: 57
-  - Level: 216
-    Points: 4099
-    TraitPoints: 60
-  - Level: 217
-    Points: 4099
-    TraitPoints: 63
-  - Level: 218
-    Points: 4099
-    TraitPoints: 66
-  - Level: 219
-    Points: 4099
-    TraitPoints: 69
-  - Level: 220
-    Points: 4099
-    TraitPoints: 76
-  - Level: 221
-    Points: 4099
-    TraitPoints: 79
-  - Level: 222
-    Points: 4099
-    TraitPoints: 82
-  - Level: 223
-    Points: 4099
-    TraitPoints: 85
-  - Level: 224
-    Points: 4099
-    TraitPoints: 88
-  - Level: 225
-    Points: 4099
-    TraitPoints: 95
-  - Level: 226
-    Points: 4099
-    TraitPoints: 98
-  - Level: 227
-    Points: 4099
-    TraitPoints: 101
-  - Level: 228
-    Points: 4099
-    TraitPoints: 104
-  - Level: 229
-    Points: 4099
-    TraitPoints: 107
-  - Level: 230
-    Points: 4099
-    TraitPoints: 114
-  - Level: 231
-    Points: 4099
-    TraitPoints: 117
-  - Level: 232
-    Points: 4099
-    TraitPoints: 120
-  - Level: 233
-    Points: 4099
-    TraitPoints: 123
-  - Level: 234
-    Points: 4099
-    TraitPoints: 126
-  - Level: 235
-    Points: 4099
-    TraitPoints: 133
-  - Level: 236
-    Points: 4099
-    TraitPoints: 136
-  - Level: 237
-    Points: 4099
-    TraitPoints: 139
-  - Level: 238
-    Points: 4099
-    TraitPoints: 142
-  - Level: 239
-    Points: 4099
-    TraitPoints: 145
-  - Level: 240
-    Points: 4099
-    TraitPoints: 152
-  - Level: 241
-    Points: 4099
-    TraitPoints: 155
-  - Level: 242
-    Points: 4099
-    TraitPoints: 158
-  - Level: 243
-    Points: 4099
-    TraitPoints: 161
-  - Level: 244
-    Points: 4099
-    TraitPoints: 164
-  - Level: 245
-    Points: 4099
-    TraitPoints: 171
-  - Level: 246
-    Points: 4099
-    TraitPoints: 174
-  - Level: 247
-    Points: 4099
-    TraitPoints: 177
-  - Level: 248
-    Points: 4099
-    TraitPoints: 180
-  - Level: 249
-    Points: 4099
-    TraitPoints: 183
-  - Level: 250
-    Points: 4099
-    TraitPoints: 190
+    - Level: 1
+      Points: 48
+    - Level: 2
+      Points: 51
+    - Level: 3
+      Points: 54
+    - Level: 4
+      Points: 57
+    - Level: 5
+      Points: 60
+    - Level: 6
+      Points: 64
+    - Level: 7
+      Points: 68
+    - Level: 8
+      Points: 72
+    - Level: 9
+      Points: 76
+    - Level: 10
+      Points: 80
+    - Level: 11
+      Points: 85
+    - Level: 12
+      Points: 90
+    - Level: 13
+      Points: 95
+    - Level: 14
+      Points: 100
+    - Level: 15
+      Points: 105
+    - Level: 16
+      Points: 111
+    - Level: 17
+      Points: 117
+    - Level: 18
+      Points: 123
+    - Level: 19
+      Points: 129
+    - Level: 20
+      Points: 135
+    - Level: 21
+      Points: 142
+    - Level: 22
+      Points: 149
+    - Level: 23
+      Points: 156
+    - Level: 24
+      Points: 163
+    - Level: 25
+      Points: 170
+    - Level: 26
+      Points: 178
+    - Level: 27
+      Points: 186
+    - Level: 28
+      Points: 194
+    - Level: 29
+      Points: 202
+    - Level: 30
+      Points: 210
+    - Level: 31
+      Points: 219
+    - Level: 32
+      Points: 228
+    - Level: 33
+      Points: 237
+    - Level: 34
+      Points: 246
+    - Level: 35
+      Points: 255
+    - Level: 36
+      Points: 265
+    - Level: 37
+      Points: 275
+    - Level: 38
+      Points: 285
+    - Level: 39
+      Points: 295
+    - Level: 40
+      Points: 305
+    - Level: 41
+      Points: 316
+    - Level: 42
+      Points: 327
+    - Level: 43
+      Points: 338
+    - Level: 44
+      Points: 349
+    - Level: 45
+      Points: 360
+    - Level: 46
+      Points: 372
+    - Level: 47
+      Points: 384
+    - Level: 48
+      Points: 396
+    - Level: 49
+      Points: 408
+    - Level: 50
+      Points: 420
+    - Level: 51
+      Points: 433
+    - Level: 52
+      Points: 446
+    - Level: 53
+      Points: 459
+    - Level: 54
+      Points: 472
+    - Level: 55
+      Points: 485
+    - Level: 56
+      Points: 499
+    - Level: 57
+      Points: 513
+    - Level: 58
+      Points: 527
+    - Level: 59
+      Points: 541
+    - Level: 60
+      Points: 555
+    - Level: 61
+      Points: 570
+    - Level: 62
+      Points: 585
+    - Level: 63
+      Points: 600
+    - Level: 64
+      Points: 615
+    - Level: 65
+      Points: 630
+    - Level: 66
+      Points: 646
+    - Level: 67
+      Points: 662
+    - Level: 68
+      Points: 678
+    - Level: 69
+      Points: 694
+    - Level: 70
+      Points: 710
+    - Level: 71
+      Points: 727
+    - Level: 72
+      Points: 744
+    - Level: 73
+      Points: 761
+    - Level: 74
+      Points: 778
+    - Level: 75
+      Points: 795
+    - Level: 76
+      Points: 813
+    - Level: 77
+      Points: 831
+    - Level: 78
+      Points: 849
+    - Level: 79
+      Points: 867
+    - Level: 80
+      Points: 885
+    - Level: 81
+      Points: 904
+    - Level: 82
+      Points: 923
+    - Level: 83
+      Points: 942
+    - Level: 84
+      Points: 961
+    - Level: 85
+      Points: 980
+    - Level: 86
+      Points: 1000
+    - Level: 87
+      Points: 1020
+    - Level: 88
+      Points: 1040
+    - Level: 89
+      Points: 1060
+    - Level: 90
+      Points: 1080
+    - Level: 91
+      Points: 1101
+    - Level: 92
+      Points: 1122
+    - Level: 93
+      Points: 1143
+    - Level: 94
+      Points: 1164
+    - Level: 95
+      Points: 1185
+    - Level: 96
+      Points: 1207
+    - Level: 97
+      Points: 1229
+    - Level: 98
+      Points: 1251
+    - Level: 99
+      Points: 1273
+    - Level: 100
+      Points: 1295
+    - Level: 101
+      Points: 1318
+    - Level: 102
+      Points: 1341
+    - Level: 103
+      Points: 1364
+    - Level: 104
+      Points: 1387
+    - Level: 105
+      Points: 1410
+    - Level: 106
+      Points: 1433
+    - Level: 107
+      Points: 1456
+    - Level: 108
+      Points: 1479
+    - Level: 109
+      Points: 1502
+    - Level: 110
+      Points: 1525
+    - Level: 111
+      Points: 1549
+    - Level: 112
+      Points: 1573
+    - Level: 113
+      Points: 1597
+    - Level: 114
+      Points: 1621
+    - Level: 115
+      Points: 1645
+    - Level: 116
+      Points: 1669
+    - Level: 117
+      Points: 1693
+    - Level: 118
+      Points: 1717
+    - Level: 119
+      Points: 1741
+    - Level: 120
+      Points: 1765
+    - Level: 121
+      Points: 1790
+    - Level: 122
+      Points: 1815
+    - Level: 123
+      Points: 1840
+    - Level: 124
+      Points: 1865
+    - Level: 125
+      Points: 1890
+    - Level: 126
+      Points: 1915
+    - Level: 127
+      Points: 1940
+    - Level: 128
+      Points: 1965
+    - Level: 129
+      Points: 1990
+    - Level: 130
+      Points: 2015
+    - Level: 131
+      Points: 2041
+    - Level: 132
+      Points: 2067
+    - Level: 133
+      Points: 2093
+    - Level: 134
+      Points: 2119
+    - Level: 135
+      Points: 2145
+    - Level: 136
+      Points: 2171
+    - Level: 137
+      Points: 2197
+    - Level: 138
+      Points: 2223
+    - Level: 139
+      Points: 2249
+    - Level: 140
+      Points: 2275
+    - Level: 141
+      Points: 2302
+    - Level: 142
+      Points: 2329
+    - Level: 143
+      Points: 2356
+    - Level: 144
+      Points: 2383
+    - Level: 145
+      Points: 2410
+    - Level: 146
+      Points: 2437
+    - Level: 147
+      Points: 2464
+    - Level: 148
+      Points: 2491
+    - Level: 149
+      Points: 2518
+    - Level: 150
+      Points: 2545
+    - Level: 151
+      Points: 2573
+    - Level: 152
+      Points: 2601
+    - Level: 153
+      Points: 2629
+    - Level: 154
+      Points: 2657
+    - Level: 155
+      Points: 2685
+    - Level: 156
+      Points: 2713
+    - Level: 157
+      Points: 2741
+    - Level: 158
+      Points: 2770
+    - Level: 159
+      Points: 2799
+    - Level: 160
+      Points: 2828
+    - Level: 161
+      Points: 2857
+    - Level: 162
+      Points: 2886
+    - Level: 163
+      Points: 2915
+    - Level: 164
+      Points: 2944
+    - Level: 165
+      Points: 2974
+    - Level: 166
+      Points: 3004
+    - Level: 167
+      Points: 3034
+    - Level: 168
+      Points: 3064
+    - Level: 169
+      Points: 3094
+    - Level: 170
+      Points: 3124
+    - Level: 171
+      Points: 3154
+    - Level: 172
+      Points: 3185
+    - Level: 173
+      Points: 3216
+    - Level: 174
+      Points: 3247
+    - Level: 175
+      Points: 3278
+    - Level: 176
+      Points: 3309
+    - Level: 177
+      Points: 3340
+    - Level: 178
+      Points: 3371
+    - Level: 179
+      Points: 3403
+    - Level: 180
+      Points: 3435
+    - Level: 181
+      Points: 3467
+    - Level: 182
+      Points: 3499
+    - Level: 183
+      Points: 3531
+    - Level: 184
+      Points: 3563
+    - Level: 185
+      Points: 3595
+    - Level: 186
+      Points: 3628
+    - Level: 187
+      Points: 3661
+    - Level: 188
+      Points: 3694
+    - Level: 189
+      Points: 3727
+    - Level: 190
+      Points: 3760
+    - Level: 191
+      Points: 3793
+    - Level: 192
+      Points: 3826
+    - Level: 193
+      Points: 3860
+    - Level: 194
+      Points: 3894
+    - Level: 195
+      Points: 3928
+    - Level: 196
+      Points: 3962
+    - Level: 197
+      Points: 3996
+    - Level: 198
+      Points: 4030
+    - Level: 199
+      Points: 4064
+    - Level: 200
+      Points: 4099
+    - Level: 201
+      Points: 4134
+    - Level: 202
+      Points: 4169
+    - Level: 203
+      Points: 4204
+    - Level: 204
+      Points: 4239
+    - Level: 205
+      Points: 4274
+    - Level: 206
+      Points: 4309
+    - Level: 207
+      Points: 4344
+    - Level: 208
+      Points: 4379
+    - Level: 209
+      Points: 4414
+    - Level: 210
+      Points: 4449
+    - Level: 211
+      Points: 4484
+    - Level: 212
+      Points: 4519
+    - Level: 213
+      Points: 4554
+    - Level: 214
+      Points: 4589
+    - Level: 215
+      Points: 4624
+    - Level: 216
+      Points: 4659
+    - Level: 217
+      Points: 4694
+    - Level: 218
+      Points: 4729
+    - Level: 219
+      Points: 4764
+    - Level: 220
+      Points: 4799
+    - Level: 221
+      Points: 4834
+    - Level: 222
+      Points: 4869
+    - Level: 223
+      Points: 4904
+    - Level: 224
+      Points: 4939
+    - Level: 225
+      Points: 4974
+    - Level: 226
+      Points: 5009
+    - Level: 227
+      Points: 5044
+    - Level: 228
+      Points: 5079
+    - Level: 229
+      Points: 5114
+    - Level: 230
+      Points: 5149
+    - Level: 231
+      Points: 5184
+    - Level: 232
+      Points: 5219
+    - Level: 233
+      Points: 5254
+    - Level: 234
+      Points: 5289
+    - Level: 235
+      Points: 5324
+    - Level: 236
+      Points: 5359
+    - Level: 237
+      Points: 5394
+    - Level: 238
+      Points: 5429
+    - Level: 239
+      Points: 5464
+    - Level: 240
+      Points: 5499
+    - Level: 241
+      Points: 5534
+    - Level: 242
+      Points: 5569
+    - Level: 243
+      Points: 5604
+    - Level: 244
+      Points: 5639
+    - Level: 245
+      Points: 5674
+    - Level: 246
+      Points: 5709
+    - Level: 247
+      Points: 5744
+    - Level: 248
+      Points: 5779
+    - Level: 249
+      Points: 5814
+    - Level: 250
+      Points: 5849
+    - Level: 251
+      Points: 5884
+    - Level: 252
+      Points: 5919
+    - Level: 253
+      Points: 5954
+    - Level: 254
+      Points: 5989
+    - Level: 255
+      Points: 6024
+    - Level: 256
+      Points: 6059
+    - Level: 257
+      Points: 6094
+    - Level: 258
+      Points: 6129
+    - Level: 259
+      Points: 6164
+    - Level: 260
+      Points: 6199
+    - Level: 261
+      Points: 6234
+    - Level: 262
+      Points: 6269
+    - Level: 263
+      Points: 6304
+    - Level: 264
+      Points: 6339
+    - Level: 265
+      Points: 6374
+    - Level: 266
+      Points: 6409
+    - Level: 267
+      Points: 6444
+    - Level: 268
+      Points: 6479
+    - Level: 269
+      Points: 6514
+    - Level: 270
+      Points: 6549
+    - Level: 271
+      Points: 6584
+    - Level: 272
+      Points: 6619
+    - Level: 273
+      Points: 6654
+    - Level: 274
+      Points: 6689
+    - Level: 275
+      Points: 6724
+    - Level: 276
+      Points: 6759
+    - Level: 277
+      Points: 6794
+    - Level: 278
+      Points: 6829
+    - Level: 279
+      Points: 6864
+    - Level: 280
+      Points: 6899
+    - Level: 281
+      Points: 6934
+    - Level: 282
+      Points: 6969
+    - Level: 283
+      Points: 7004
+    - Level: 284
+      Points: 7039
+    - Level: 285
+      Points: 7074
+    - Level: 286
+      Points: 7109
+    - Level: 287
+      Points: 7144
+    - Level: 288
+      Points: 7179
+    - Level: 289
+      Points: 7214
+    - Level: 290
+      Points: 7249
+    - Level: 291
+      Points: 7284
+    - Level: 292
+      Points: 7319
+    - Level: 293
+      Points: 7354
+    - Level: 294
+      Points: 7389
+    - Level: 295
+      Points: 7424
+    - Level: 296
+      Points: 7459
+    - Level: 297
+      Points: 7494
+    - Level: 298
+      Points: 7529
+    - Level: 299
+      Points: 7564
+    - Level: 300
+      Points: 7599
+    - Level: 301
+      Points: 7634
+    - Level: 302
+      Points: 7669
+    - Level: 303
+      Points: 7704
+    - Level: 304
+      Points: 7739
+    - Level: 305
+      Points: 7774
+    - Level: 306
+      Points: 7809
+    - Level: 307
+      Points: 7844
+    - Level: 308
+      Points: 7879
+    - Level: 309
+      Points: 7914
+    - Level: 310
+      Points: 7949
+    - Level: 311
+      Points: 7984
+    - Level: 312
+      Points: 8019
+    - Level: 313
+      Points: 8054
+    - Level: 314
+      Points: 8089
+    - Level: 315
+      Points: 8124
+    - Level: 316
+      Points: 8159
+    - Level: 317
+      Points: 8194
+    - Level: 318
+      Points: 8229
+    - Level: 319
+      Points: 8264
+    - Level: 320
+      Points: 8299
+    - Level: 321
+      Points: 8334
+    - Level: 322
+      Points: 8369
+    - Level: 323
+      Points: 8404
+    - Level: 324
+      Points: 8439
+    - Level: 325
+      Points: 8474
+    - Level: 326
+      Points: 8509
+    - Level: 327
+      Points: 8544
+    - Level: 328
+      Points: 8579
+    - Level: 329
+      Points: 8614
+    - Level: 330
+      Points: 8649
+    - Level: 331
+      Points: 8684
+    - Level: 332
+      Points: 8719
+    - Level: 333
+      Points: 8754
+    - Level: 334
+      Points: 8789
+    - Level: 335
+      Points: 8824
+    - Level: 336
+      Points: 8859
+    - Level: 337
+      Points: 8894
+    - Level: 338
+      Points: 8929
+    - Level: 339
+      Points: 8964
+    - Level: 340
+      Points: 8999
+    - Level: 341
+      Points: 9034
+    - Level: 342
+      Points: 9069
+    - Level: 343
+      Points: 9104
+    - Level: 344
+      Points: 9139
+    - Level: 345
+      Points: 9174
+    - Level: 346
+      Points: 9209
+    - Level: 347
+      Points: 9244
+    - Level: 348
+      Points: 9279
+    - Level: 349
+      Points: 9314
+    - Level: 350
+      Points: 9349
+    - Level: 351
+      Points: 9384
+    - Level: 352
+      Points: 9419
+    - Level: 353
+      Points: 9454
+    - Level: 354
+      Points: 9489
+    - Level: 355
+      Points: 9524
+    - Level: 356
+      Points: 9559
+    - Level: 357
+      Points: 9594
+    - Level: 358
+      Points: 9629
+    - Level: 359
+      Points: 9664
+    - Level: 360
+      Points: 9699
+    - Level: 361
+      Points: 9734
+    - Level: 362
+      Points: 9769
+    - Level: 363
+      Points: 9804
+    - Level: 364
+      Points: 9839
+    - Level: 365
+      Points: 9874
+    - Level: 366
+      Points: 9909
+    - Level: 367
+      Points: 9944
+    - Level: 368
+      Points: 9979
+    - Level: 369
+      Points: 10014
+    - Level: 370
+      Points: 10049
+    - Level: 371
+      Points: 10084
+    - Level: 372
+      Points: 10119
+    - Level: 373
+      Points: 10154
+    - Level: 374
+      Points: 10189
+    - Level: 375
+      Points: 10224
+    - Level: 376
+      Points: 10259
+    - Level: 377
+      Points: 10294
+    - Level: 378
+      Points: 10329
+    - Level: 379
+      Points: 10364
+    - Level: 380
+      Points: 10399
+    - Level: 381
+      Points: 10434
+    - Level: 382
+      Points: 10469
+    - Level: 383
+      Points: 10504
+    - Level: 384
+      Points: 10539
+    - Level: 385
+      Points: 10574
+    - Level: 386
+      Points: 10609
+    - Level: 387
+      Points: 10644
+    - Level: 388
+      Points: 10679
+    - Level: 389
+      Points: 10714
+    - Level: 390
+      Points: 10749
+    - Level: 391
+      Points: 10784
+    - Level: 392
+      Points: 10819
+    - Level: 393
+      Points: 10854
+    - Level: 394
+      Points: 10889
+    - Level: 395
+      Points: 10924
+    - Level: 396
+      Points: 10959
+    - Level: 397
+      Points: 10994
+    - Level: 398
+      Points: 11029
+    - Level: 399
+      Points: 11064
+    - Level: 400
+      Points: 11099
+    - Level: 401
+      Points: 11134
+    - Level: 402
+      Points: 11169
+    - Level: 403
+      Points: 11204
+    - Level: 404
+      Points: 11239
+    - Level: 405
+      Points: 11274
+    - Level: 406
+      Points: 11309
+    - Level: 407
+      Points: 11344
+    - Level: 408
+      Points: 11379
+    - Level: 409
+      Points: 11414
+    - Level: 410
+      Points: 11449
+    - Level: 411
+      Points: 11484
+    - Level: 412
+      Points: 11519
+    - Level: 413
+      Points: 11554
+    - Level: 414
+      Points: 11589
+    - Level: 415
+      Points: 11624
+    - Level: 416
+      Points: 11659
+    - Level: 417
+      Points: 11694
+    - Level: 418
+      Points: 11729
+    - Level: 419
+      Points: 11764
+    - Level: 420
+      Points: 11799
+    - Level: 421
+      Points: 11834
+    - Level: 422
+      Points: 11869
+    - Level: 423
+      Points: 11904
+    - Level: 424
+      Points: 11939
+    - Level: 425
+      Points: 11974
+    - Level: 426
+      Points: 12009
+    - Level: 427
+      Points: 12044
+    - Level: 428
+      Points: 12079
+    - Level: 429
+      Points: 12114
+    - Level: 430
+      Points: 12149
+    - Level: 431
+      Points: 12184
+    - Level: 432
+      Points: 12219
+    - Level: 433
+      Points: 12254
+    - Level: 434
+      Points: 12289
+    - Level: 435
+      Points: 12324
+    - Level: 436
+      Points: 12359
+    - Level: 437
+      Points: 12394
+    - Level: 438
+      Points: 12429
+    - Level: 439
+      Points: 12464
+    - Level: 440
+      Points: 12499
+    - Level: 441
+      Points: 12534
+    - Level: 442
+      Points: 12569
+    - Level: 443
+      Points: 12604
+    - Level: 444
+      Points: 12639
+    - Level: 445
+      Points: 12674
+    - Level: 446
+      Points: 12709
+    - Level: 447
+      Points: 12744
+    - Level: 448
+      Points: 12779
+    - Level: 449
+      Points: 12814
+    - Level: 450
+      Points: 12849
+    - Level: 451
+      Points: 12884
+    - Level: 452
+      Points: 12919
+    - Level: 453
+      Points: 12954
+    - Level: 454
+      Points: 12989
+    - Level: 455
+      Points: 13024
+    - Level: 456
+      Points: 13059
+    - Level: 457
+      Points: 13094
+    - Level: 458
+      Points: 13129
+    - Level: 459
+      Points: 13164
+    - Level: 460
+      Points: 13199
+    - Level: 461
+      Points: 13234
+    - Level: 462
+      Points: 13269
+    - Level: 463
+      Points: 13304
+    - Level: 464
+      Points: 13339
+    - Level: 465
+      Points: 13374
+    - Level: 466
+      Points: 13409
+    - Level: 467
+      Points: 13444
+    - Level: 468
+      Points: 13479
+    - Level: 469
+      Points: 13514
+    - Level: 470
+      Points: 13549
+    - Level: 471
+      Points: 13584
+    - Level: 472
+      Points: 13619
+    - Level: 473
+      Points: 13654
+    - Level: 474
+      Points: 13689
+    - Level: 475
+      Points: 13724
+    - Level: 476
+      Points: 13759
+    - Level: 477
+      Points: 13794
+    - Level: 478
+      Points: 13829
+    - Level: 479
+      Points: 13864
+    - Level: 480
+      Points: 13899
+    - Level: 481
+      Points: 13934
+    - Level: 482
+      Points: 13969
+    - Level: 483
+      Points: 14004
+    - Level: 484
+      Points: 14039
+    - Level: 485
+      Points: 14074
+    - Level: 486
+      Points: 14109
+    - Level: 487
+      Points: 14144
+    - Level: 488
+      Points: 14179
+    - Level: 489
+      Points: 14214
+    - Level: 490
+      Points: 14249
+    - Level: 491
+      Points: 14284
+    - Level: 492
+      Points: 14319
+    - Level: 493
+      Points: 14354
+    - Level: 494
+      Points: 14389
+    - Level: 495
+      Points: 14424
+    - Level: 496
+      Points: 14459
+    - Level: 497
+      Points: 14494
+    - Level: 498
+      Points: 14529
+    - Level: 499
+      Points: 14564
+    - Level: 500
+      Points: 14599
+    - Level: 501
+      Points: 14634
+    - Level: 502
+      Points: 14669
+    - Level: 503
+      Points: 14704
+    - Level: 504
+      Points: 14739
+    - Level: 505
+      Points: 14774
+    - Level: 506
+      Points: 14809
+    - Level: 507
+      Points: 14844
+    - Level: 508
+      Points: 14879
+    - Level: 509
+      Points: 14914
+    - Level: 510
+      Points: 14949
+    - Level: 511
+      Points: 14984
+    - Level: 512
+      Points: 15019
+    - Level: 513
+      Points: 15054
+    - Level: 514
+      Points: 15089
+    - Level: 515
+      Points: 15124
+    - Level: 516
+      Points: 15159
+    - Level: 517
+      Points: 15194
+    - Level: 518
+      Points: 15229
+    - Level: 519
+      Points: 15264
+    - Level: 520
+      Points: 15299
+    - Level: 521
+      Points: 15334
+    - Level: 522
+      Points: 15369
+    - Level: 523
+      Points: 15404
+    - Level: 524
+      Points: 15439
+    - Level: 525
+      Points: 15474
+    - Level: 526
+      Points: 15509
+    - Level: 527
+      Points: 15544
+    - Level: 528
+      Points: 15579
+    - Level: 529
+      Points: 15614
+    - Level: 530
+      Points: 15649
+    - Level: 531
+      Points: 15684
+    - Level: 532
+      Points: 15719
+    - Level: 533
+      Points: 15754
+    - Level: 534
+      Points: 15789
+    - Level: 535
+      Points: 15824
+    - Level: 536
+      Points: 15859
+    - Level: 537
+      Points: 15894
+    - Level: 538
+      Points: 15929
+    - Level: 539
+      Points: 15964
+    - Level: 540
+      Points: 15999
+    - Level: 541
+      Points: 16034
+    - Level: 542
+      Points: 16069
+    - Level: 543
+      Points: 16104
+    - Level: 544
+      Points: 16139
+    - Level: 545
+      Points: 16174
+    - Level: 546
+      Points: 16209
+    - Level: 547
+      Points: 16244
+    - Level: 548
+      Points: 16279
+    - Level: 549
+      Points: 16314
+    - Level: 550
+      Points: 16349
+    - Level: 551
+      Points: 16384
+    - Level: 552
+      Points: 16419
+    - Level: 553
+      Points: 16454
+    - Level: 554
+      Points: 16489
+    - Level: 555
+      Points: 16524
+    - Level: 556
+      Points: 16559
+    - Level: 557
+      Points: 16594
+    - Level: 558
+      Points: 16629
+    - Level: 559
+      Points: 16664
+    - Level: 560
+      Points: 16699
+    - Level: 561
+      Points: 16734
+    - Level: 562
+      Points: 16769
+    - Level: 563
+      Points: 16804
+    - Level: 564
+      Points: 16839
+    - Level: 565
+      Points: 16874
+    - Level: 566
+      Points: 16909
+    - Level: 567
+      Points: 16944
+    - Level: 568
+      Points: 16979
+    - Level: 569
+      Points: 17014
+    - Level: 570
+      Points: 17049
+    - Level: 571
+      Points: 17084
+    - Level: 572
+      Points: 17119
+    - Level: 573
+      Points: 17154
+    - Level: 574
+      Points: 17189
+    - Level: 575
+      Points: 17224
+    - Level: 576
+      Points: 17259
+    - Level: 577
+      Points: 17294
+    - Level: 578
+      Points: 17329
+    - Level: 579
+      Points: 17364
+    - Level: 580
+      Points: 17399
+    - Level: 581
+      Points: 17434
+    - Level: 582
+      Points: 17469
+    - Level: 583
+      Points: 17504
+    - Level: 584
+      Points: 17539
+    - Level: 585
+      Points: 17574
+    - Level: 586
+      Points: 17609
+    - Level: 587
+      Points: 17644
+    - Level: 588
+      Points: 17679
+    - Level: 589
+      Points: 17714
+    - Level: 590
+      Points: 17749
+    - Level: 591
+      Points: 17784
+    - Level: 592
+      Points: 17819
+    - Level: 593
+      Points: 17854
+    - Level: 594
+      Points: 17889
+    - Level: 595
+      Points: 17924
+    - Level: 596
+      Points: 17959
+    - Level: 597
+      Points: 17994
+    - Level: 598
+      Points: 18029
+    - Level: 599
+      Points: 18064
+    - Level: 600
+      Points: 18099
+    - Level: 601
+      Points: 18134
+    - Level: 602
+      Points: 18169
+    - Level: 603
+      Points: 18204
+    - Level: 604
+      Points: 18239
+    - Level: 605
+      Points: 18274
+    - Level: 606
+      Points: 18309
+    - Level: 607
+      Points: 18344
+    - Level: 608
+      Points: 18379
+    - Level: 609
+      Points: 18414
+    - Level: 610
+      Points: 18449
+    - Level: 611
+      Points: 18484
+    - Level: 612
+      Points: 18519
+    - Level: 613
+      Points: 18554
+    - Level: 614
+      Points: 18589
+    - Level: 615
+      Points: 18624
+    - Level: 616
+      Points: 18659
+    - Level: 617
+      Points: 18694
+    - Level: 618
+      Points: 18729
+    - Level: 619
+      Points: 18764
+    - Level: 620
+      Points: 18799
+    - Level: 621
+      Points: 18834
+    - Level: 622
+      Points: 18869
+    - Level: 623
+      Points: 18904
+    - Level: 624
+      Points: 18939
+    - Level: 625
+      Points: 18974
+    - Level: 626
+      Points: 19009
+    - Level: 627
+      Points: 19044
+    - Level: 628
+      Points: 19079
+    - Level: 629
+      Points: 19114
+    - Level: 630
+      Points: 19149
+    - Level: 631
+      Points: 19184
+    - Level: 632
+      Points: 19219
+    - Level: 633
+      Points: 19254
+    - Level: 634
+      Points: 19289
+    - Level: 635
+      Points: 19324
+    - Level: 636
+      Points: 19359
+    - Level: 637
+      Points: 19394
+    - Level: 638
+      Points: 19429
+    - Level: 639
+      Points: 19464
+    - Level: 640
+      Points: 19499
+    - Level: 641
+      Points: 19534
+    - Level: 642
+      Points: 19569
+    - Level: 643
+      Points: 19604
+    - Level: 644
+      Points: 19639
+    - Level: 645
+      Points: 19674
+    - Level: 646
+      Points: 19709
+    - Level: 647
+      Points: 19744
+    - Level: 648
+      Points: 19779
+    - Level: 649
+      Points: 19814
+    - Level: 650
+      Points: 19849
+    - Level: 651
+      Points: 19884
+    - Level: 652
+      Points: 19919
+    - Level: 653
+      Points: 19954
+    - Level: 654
+      Points: 19989
+    - Level: 655
+      Points: 20024
+    - Level: 656
+      Points: 20059
+    - Level: 657
+      Points: 20094
+    - Level: 658
+      Points: 20129
+    - Level: 659
+      Points: 20164
+    - Level: 660
+      Points: 20199
+    - Level: 661
+      Points: 20234
+    - Level: 662
+      Points: 20269
+    - Level: 663
+      Points: 20304
+    - Level: 664
+      Points: 20339
+    - Level: 665
+      Points: 20374
+    - Level: 666
+      Points: 20409
+    - Level: 667
+      Points: 20444
+    - Level: 668
+      Points: 20479
+    - Level: 669
+      Points: 20514
+    - Level: 670
+      Points: 20549
+    - Level: 671
+      Points: 20584
+    - Level: 672
+      Points: 20619
+    - Level: 673
+      Points: 20654
+    - Level: 674
+      Points: 20689
+    - Level: 675
+      Points: 20724
+    - Level: 676
+      Points: 20759
+    - Level: 677
+      Points: 20794
+    - Level: 678
+      Points: 20829
+    - Level: 679
+      Points: 20864
+    - Level: 680
+      Points: 20899
+    - Level: 681
+      Points: 20934
+    - Level: 682
+      Points: 20969
+    - Level: 683
+      Points: 21004
+    - Level: 684
+      Points: 21039
+    - Level: 685
+      Points: 21074
+    - Level: 686
+      Points: 21109
+    - Level: 687
+      Points: 21144
+    - Level: 688
+      Points: 21179
+    - Level: 689
+      Points: 21214
+    - Level: 690
+      Points: 21249
+    - Level: 691
+      Points: 21284
+    - Level: 692
+      Points: 21319
+    - Level: 693
+      Points: 21354
+    - Level: 694
+      Points: 21389
+    - Level: 695
+      Points: 21424
+    - Level: 696
+      Points: 21459
+    - Level: 697
+      Points: 21494
+    - Level: 698
+      Points: 21529
+    - Level: 699
+      Points: 21564
+    - Level: 700
+      Points: 21599
+    - Level: 701
+      Points: 21634
+    - Level: 702
+      Points: 21669
+    - Level: 703
+      Points: 21704
+    - Level: 704
+      Points: 21739
+    - Level: 705
+      Points: 21774
+    - Level: 706
+      Points: 21809
+    - Level: 707
+      Points: 21844
+    - Level: 708
+      Points: 21879
+    - Level: 709
+      Points: 21914
+    - Level: 710
+      Points: 21949
+    - Level: 711
+      Points: 21984
+    - Level: 712
+      Points: 22019
+    - Level: 713
+      Points: 22054
+    - Level: 714
+      Points: 22089
+    - Level: 715
+      Points: 22124
+    - Level: 716
+      Points: 22159
+    - Level: 717
+      Points: 22194
+    - Level: 718
+      Points: 22229
+    - Level: 719
+      Points: 22264
+    - Level: 720
+      Points: 22299
+    - Level: 721
+      Points: 22334
+    - Level: 722
+      Points: 22369
+    - Level: 723
+      Points: 22404
+    - Level: 724
+      Points: 22439
+    - Level: 725
+      Points: 22474
+    - Level: 726
+      Points: 22509
+    - Level: 727
+      Points: 22544
+    - Level: 728
+      Points: 22579
+    - Level: 729
+      Points: 22614
+    - Level: 730
+      Points: 22649
+    - Level: 731
+      Points: 22684
+    - Level: 732
+      Points: 22719
+    - Level: 733
+      Points: 22754
+    - Level: 734
+      Points: 22789
+    - Level: 735
+      Points: 22824
+    - Level: 736
+      Points: 22859
+    - Level: 737
+      Points: 22894
+    - Level: 738
+      Points: 22929
+    - Level: 739
+      Points: 22964
+    - Level: 740
+      Points: 22999
+    - Level: 741
+      Points: 23034
+    - Level: 742
+      Points: 23069
+    - Level: 743
+      Points: 23104
+    - Level: 744
+      Points: 23139
+    - Level: 745
+      Points: 23174
+    - Level: 746
+      Points: 23209
+    - Level: 747
+      Points: 23244
+    - Level: 748
+      Points: 23279
+    - Level: 749
+      Points: 23314
+    - Level: 750
+      Points: 23349
+    - Level: 751
+      Points: 23384
+    - Level: 752
+      Points: 23419
+    - Level: 753
+      Points: 23454
+    - Level: 754
+      Points: 23489
+    - Level: 755
+      Points: 23524
+    - Level: 756
+      Points: 23559
+    - Level: 757
+      Points: 23594
+    - Level: 758
+      Points: 23629
+    - Level: 759
+      Points: 23664
+    - Level: 760
+      Points: 23699
+    - Level: 761
+      Points: 23734
+    - Level: 762
+      Points: 23769
+    - Level: 763
+      Points: 23804
+    - Level: 764
+      Points: 23839
+    - Level: 765
+      Points: 23874
+    - Level: 766
+      Points: 23909
+    - Level: 767
+      Points: 23944
+    - Level: 768
+      Points: 23979
+    - Level: 769
+      Points: 24014
+    - Level: 770
+      Points: 24049
+    - Level: 771
+      Points: 24084
+    - Level: 772
+      Points: 24119
+    - Level: 773
+      Points: 24154
+    - Level: 774
+      Points: 24189
+    - Level: 775
+      Points: 24224
+    - Level: 776
+      Points: 24259
+    - Level: 777
+      Points: 24294
+    - Level: 778
+      Points: 24329
+    - Level: 779
+      Points: 24364
+    - Level: 780
+      Points: 24399
+    - Level: 781
+      Points: 24434
+    - Level: 782
+      Points: 24469
+    - Level: 783
+      Points: 24504
+    - Level: 784
+      Points: 24539
+    - Level: 785
+      Points: 24574
+    - Level: 786
+      Points: 24609
+    - Level: 787
+      Points: 24644
+    - Level: 788
+      Points: 24679
+    - Level: 789
+      Points: 24714
+    - Level: 790
+      Points: 24749
+    - Level: 791
+      Points: 24784
+    - Level: 792
+      Points: 24819
+    - Level: 793
+      Points: 24854
+    - Level: 794
+      Points: 24889
+    - Level: 795
+      Points: 24924
+    - Level: 796
+      Points: 24959
+    - Level: 797
+      Points: 24994
+    - Level: 798
+      Points: 25029
+    - Level: 799
+      Points: 25064
+    - Level: 800
+      Points: 25099
+    - Level: 801
+      Points: 25134
+    - Level: 802
+      Points: 25169
+    - Level: 803
+      Points: 25204
+    - Level: 804
+      Points: 25239
+    - Level: 805
+      Points: 25274
+    - Level: 806
+      Points: 25309
+    - Level: 807
+      Points: 25344
+    - Level: 808
+      Points: 25379
+    - Level: 809
+      Points: 25414
+    - Level: 810
+      Points: 25449
+    - Level: 811
+      Points: 25484
+    - Level: 812
+      Points: 25519
+    - Level: 813
+      Points: 25554
+    - Level: 814
+      Points: 25589
+    - Level: 815
+      Points: 25624
+    - Level: 816
+      Points: 25659
+    - Level: 817
+      Points: 25694
+    - Level: 818
+      Points: 25729
+    - Level: 819
+      Points: 25764
+    - Level: 820
+      Points: 25799
+    - Level: 821
+      Points: 25834
+    - Level: 822
+      Points: 25869
+    - Level: 823
+      Points: 25904
+    - Level: 824
+      Points: 25939
+    - Level: 825
+      Points: 25974
+    - Level: 826
+      Points: 26009
+    - Level: 827
+      Points: 26044
+    - Level: 828
+      Points: 26079
+    - Level: 829
+      Points: 26114
+    - Level: 830
+      Points: 26149
+    - Level: 831
+      Points: 26184
+    - Level: 832
+      Points: 26219
+    - Level: 833
+      Points: 26254
+    - Level: 834
+      Points: 26289
+    - Level: 835
+      Points: 26324
+    - Level: 836
+      Points: 26359
+    - Level: 837
+      Points: 26394
+    - Level: 838
+      Points: 26429
+    - Level: 839
+      Points: 26464
+    - Level: 840
+      Points: 26499
+    - Level: 841
+      Points: 26534
+    - Level: 842
+      Points: 26569
+    - Level: 843
+      Points: 26604
+    - Level: 844
+      Points: 26639
+    - Level: 845
+      Points: 26674
+    - Level: 846
+      Points: 26709
+    - Level: 847
+      Points: 26744
+    - Level: 848
+      Points: 26779
+    - Level: 849
+      Points: 26814
+    - Level: 850
+      Points: 26849
+    - Level: 851
+      Points: 26884
+    - Level: 852
+      Points: 26919
+    - Level: 853
+      Points: 26954
+    - Level: 854
+      Points: 26989
+    - Level: 855
+      Points: 27024
+    - Level: 856
+      Points: 27059
+    - Level: 857
+      Points: 27094
+    - Level: 858
+      Points: 27129
+    - Level: 859
+      Points: 27164
+    - Level: 860
+      Points: 27199
+    - Level: 861
+      Points: 27234
+    - Level: 862
+      Points: 27269
+    - Level: 863
+      Points: 27304
+    - Level: 864
+      Points: 27339
+    - Level: 865
+      Points: 27374
+    - Level: 866
+      Points: 27409
+    - Level: 867
+      Points: 27444
+    - Level: 868
+      Points: 27479
+    - Level: 869
+      Points: 27514
+    - Level: 870
+      Points: 27549
+    - Level: 871
+      Points: 27584
+    - Level: 872
+      Points: 27619
+    - Level: 873
+      Points: 27654
+    - Level: 874
+      Points: 27689
+    - Level: 875
+      Points: 27724
+    - Level: 876
+      Points: 27759
+    - Level: 877
+      Points: 27794
+    - Level: 878
+      Points: 27829
+    - Level: 879
+      Points: 27864
+    - Level: 880
+      Points: 27899
+    - Level: 881
+      Points: 27934
+    - Level: 882
+      Points: 27969
+    - Level: 883
+      Points: 28004
+    - Level: 884
+      Points: 28039
+    - Level: 885
+      Points: 28074
+    - Level: 886
+      Points: 28109
+    - Level: 887
+      Points: 28144
+    - Level: 888
+      Points: 28179
+    - Level: 889
+      Points: 28214
+    - Level: 890
+      Points: 28249
+    - Level: 891
+      Points: 28284
+    - Level: 892
+      Points: 28319
+    - Level: 893
+      Points: 28354
+    - Level: 894
+      Points: 28389
+    - Level: 895
+      Points: 28424
+    - Level: 896
+      Points: 28459
+    - Level: 897
+      Points: 28494
+    - Level: 898
+      Points: 28529
+    - Level: 899
+      Points: 28564
+    - Level: 900
+      Points: 28599
+    - Level: 901
+      Points: 28634
+    - Level: 902
+      Points: 28669
+    - Level: 903
+      Points: 28704
+    - Level: 904
+      Points: 28739
+    - Level: 905
+      Points: 28774
+    - Level: 906
+      Points: 28809
+    - Level: 907
+      Points: 28844
+    - Level: 908
+      Points: 28879
+    - Level: 909
+      Points: 28914
+    - Level: 910
+      Points: 28949
+    - Level: 911
+      Points: 28984
+    - Level: 912
+      Points: 29019
+    - Level: 913
+      Points: 29054
+    - Level: 914
+      Points: 29089
+    - Level: 915
+      Points: 29124
+    - Level: 916
+      Points: 29159
+    - Level: 917
+      Points: 29194
+    - Level: 918
+      Points: 29229
+    - Level: 919
+      Points: 29264
+    - Level: 920
+      Points: 29299
+    - Level: 921
+      Points: 29334
+    - Level: 922
+      Points: 29369
+    - Level: 923
+      Points: 29404
+    - Level: 924
+      Points: 29439
+    - Level: 925
+      Points: 29474
+    - Level: 926
+      Points: 29509
+    - Level: 927
+      Points: 29544
+    - Level: 928
+      Points: 29579
+    - Level: 929
+      Points: 29614
+    - Level: 930
+      Points: 29649
+    - Level: 931
+      Points: 29684
+    - Level: 932
+      Points: 29719
+    - Level: 933
+      Points: 29754
+    - Level: 934
+      Points: 29789
+    - Level: 935
+      Points: 29824
+    - Level: 936
+      Points: 29859
+    - Level: 937
+      Points: 29894
+    - Level: 938
+      Points: 29929
+    - Level: 939
+      Points: 29964
+    - Level: 940
+      Points: 29999
+    - Level: 941
+      Points: 30034
+    - Level: 942
+      Points: 30069
+    - Level: 943
+      Points: 30104
+    - Level: 944
+      Points: 30139
+    - Level: 945
+      Points: 30174
+    - Level: 946
+      Points: 30209
+    - Level: 947
+      Points: 30244
+    - Level: 948
+      Points: 30279
+    - Level: 949
+      Points: 30314
+    - Level: 950
+      Points: 30349
+    - Level: 951
+      Points: 30384
+    - Level: 952
+      Points: 30419
+    - Level: 953
+      Points: 30454
+    - Level: 954
+      Points: 30489
+    - Level: 955
+      Points: 30524
+    - Level: 956
+      Points: 30559
+    - Level: 957
+      Points: 30594
+    - Level: 958
+      Points: 30629
+    - Level: 959
+      Points: 30664
+    - Level: 960
+      Points: 30699
+    - Level: 961
+      Points: 30734
+    - Level: 962
+      Points: 30769
+    - Level: 963
+      Points: 30804
+    - Level: 964
+      Points: 30839
+    - Level: 965
+      Points: 30874
+    - Level: 966
+      Points: 30909
+    - Level: 967
+      Points: 30944
+    - Level: 968
+      Points: 30979
+    - Level: 969
+      Points: 31014
+    - Level: 970
+      Points: 31049
+    - Level: 971
+      Points: 31084
+    - Level: 972
+      Points: 31119
+    - Level: 973
+      Points: 31154
+    - Level: 974
+      Points: 31189
+    - Level: 975
+      Points: 31224
+    - Level: 976
+      Points: 31259
+    - Level: 977
+      Points: 31294
+    - Level: 978
+      Points: 31329
+    - Level: 979
+      Points: 31364
+    - Level: 980
+      Points: 31399
+    - Level: 981
+      Points: 31434
+    - Level: 982
+      Points: 31469
+    - Level: 983
+      Points: 31504
+    - Level: 984
+      Points: 31539
+    - Level: 985
+      Points: 31574
+    - Level: 986
+      Points: 31609
+    - Level: 987
+      Points: 31644
+    - Level: 988
+      Points: 31679
+    - Level: 989
+      Points: 31714
+    - Level: 990
+      Points: 31749
+    - Level: 991
+      Points: 31784
+    - Level: 992
+      Points: 31819
+    - Level: 993
+      Points: 31854
+    - Level: 994
+      Points: 31889
+    - Level: 995
+      Points: 31924
+    - Level: 996
+      Points: 31959
+    - Level: 997
+      Points: 31994
+    - Level: 998
+      Points: 32029
+    - Level: 999
+      Points: 32064

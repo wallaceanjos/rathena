@@ -1,0 +1,89 @@
+//===== rAthena Script =======================================
+//= Skill Point Girl NPC
+//===== Description: =========================================
+//= trade skill points for zeny.
+//===== Additional Comments: =================================
+//= 1.0 First Version
+//= 1.1 Optimized for the greater good. [Kisuka]
+//= 1.2 Cleaning [Euphy]
+//= 1.3 All statuses removed upon skill reset. [Euphy]
+//= 1.4 Compressed Script, Added limit use option [Stolao]
+//=	Changed set -> setarray, Improved text with F_InsertPlural
+//= 1.5 Added sc_end_class to reset related status changes [sader1992]
+//============================================================
+prontera,162,164,5	script	Adicionar Status NPC	867,{
+mes "[Adicionar Status NPC]";
+mes "Ola, "+strcharinfo(0)+", o que voce gostaria de fazer hoje?";
+next;
+menu "Escolha uma opção",@status_options;
+end;
+
+@status_options:
+switch(select("Adicionar STR: Adicionar VIT: Adicionar AGI: Adicionar INT: Adicionar DEX: Adicionar LUK:")){
+	case 1:
+		input @status_points, "Quantos pontos de STR voce gostaria de adicionar?";
+		if(@status_points > 0) {
+			if(@status_points <= StatusPoints){
+				StatusPoints = StatusPoints - @status_points;
+				strcharinfo(3, strcharinfo(3) + @status_points);
+				mes "Adicionou "+@status_points+" pontos de STR!";
+			}
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+	case 2:
+		input @status_points, "Quantos pontos de VIT voce gostaria de adicionar?";
+		if(@status_points > 0 && @status_points <= StatusPoints) {
+			StatusPoints = StatusPoints - @status_points;
+			strcharinfo(4, strcharinfo(4) + @status_points);
+			mes "Adicionou "+@status_points+" pontos de VIT!";
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+	case 3:
+		input @status_points, "Quantos pontos de AGI voce gostaria de adicionar?";
+		if(@status_points > 0 && @status_points <= StatusPoints) {
+			StatusPoints = StatusPoints - @status_points;
+			strcharinfo(5, strcharinfo(5) + @status_points);
+			mes "Adicionou "+@status_points+" pontos de AGI!";
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+	case 4:
+		input @status_points, "Quantos pontos de INT voce gostaria de adicionar?";
+		if(@status_points > 0 && @status_points <= StatusPoints) {
+			StatusPoints = StatusPoints - @status_points;
+			strcharinfo(6, strcharinfo(6) + @status_points);
+			mes "Adicionou "+@status_points+" pontos de INT!";
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+	case 5:
+		input @status_points, "Quantos pontos de DEX voce gostaria de adicionar?";
+		if(@status_points > 0 && @status_points <= StatusPoints) {
+			StatusPoints = StatusPoints - @status_points;
+			strcharinfo(7, strcharinfo(7) + @status_points);
+			mes "Adicionou "+@status_points+" pontos de DEX!";
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+	case 6:
+		input @status_points, "Quantos pontos de LUK voce gostaria de adicionar?";
+		if(@status_points > 0 && @status_points <= StatusPoints) {
+			StatusPoints = StatusPoints - @status_points;
+			strcharinfo(8, strcharinfo(8) + @status_points);
+			mes "Adicionou "+@status_points+" pontos de LUK!";
+		} else {
+			mes "Desculpe, voce nao tem pontos de status suficientes ou inseriu um valor invalido.";
+		}
+		break;
+}
+
+mes "Obrigado e boa jornada!";
+close;
+}

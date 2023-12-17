@@ -1,0 +1,40 @@
+// =============================================
+// Zeny from mobs adjustements by [Cydh]
+// house.bad@gmail.com
+// =============================================
+// Structure:
+//         MonsterID,Zeny[,Rate]
+// ---------------------------------------------
+// MonsterID:
+//     - Look at mob_db.txt
+// ---------------------------------------------
+// Zeny:
+//     - Normal zeny gained by player when monster killed
+//     - Values:
+//        -1            =    Zeny will gained based on normal calculation on mob.c
+//        0            =    Monster will not drops the zeny
+//        1             =    1z is minimum zeny amount that will be gained
+//        1000000000    =    1,000,000,000z is Maximum zeny amount that will be gained
+//     Notes:
+//         - If you set this, normal zeny calculation will be ignored
+//         - Actually, the maximum zeny gained is decided on MAX_ZENY on mmo.h
+// ---------------------------------------------
+// Rate (Optional):
+//     - Percentage of zeny rate like on drops.conf
+//     - Values:
+//        0            =    Left the rate calculation based on zeny_from_mobs_rate for normal mobs and zeny_from_boss_rate for boss mobs
+//        1            =    Minimum zeny rate, means 1% = 0.01x
+//        100            =    Normal zeny rate, means 100% = 1x. 1000 = 1000% = 10x
+//        1000000        =    Maximum zeny rate, means 1,000,000% = 10,000x.
+//     Notes:
+//         - If this is set, will ignore rate on zeny_from_mobs_rate/zeny_from_boss_rate
+//         - Actually maximum rate is set on mob.h, MAX_ZENY_FROM_MOBS_RATES same like as zeny_from_mobs_rate/zeny_from_boss_rate amount
+// =============================================
+// Examples:
+// 1002,0                    -> Poring NEVER drops zeny, even you set the rate here, it will be ignored! (e.g. 1002,0,1000)
+// 1002,-1,1000                -> Poring drops zeny based on normal calculation then the zeny gained is multiplied 10x (because the rate is set here 1000)
+// 1002,1000                -> Poring has normal 1,000z. Player will get the zeny based on rate on zeny_from_mobs_rate (e.g 100), will gained 1,000z
+// 1002,1000,1000            -> Poring has normal 1,000z. Player will get the 10,000z (1000 * 10%). zeny_from_mobs_rate is ignored!
+// 1002,-1                    -> LOL useless!!
+// 1002,-1,0                -> LMAO useless!! Just like above. Better don't write this line. It means normal calculation
+// 1002,0,1000000            -> ROFL useless!!

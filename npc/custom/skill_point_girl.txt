@@ -1,0 +1,108 @@
+//===== rAthena Script =======================================
+//= Skill Point Girl NPC
+//===== Description: =========================================
+//= trade skill points for zeny.
+//===== Additional Comments: =================================
+//= 1.0 First Version
+//= 1.1 Optimized for the greater good. [Kisuka]
+//= 1.2 Cleaning [Euphy]
+//= 1.3 All statuses removed upon skill reset. [Euphy]
+//= 1.4 Compressed Script, Added limit use option [Stolao]
+//=	Changed set -> setarray, Improved text with F_InsertPlural
+//= 1.5 Added sc_end_class to reset related status changes [sader1992]
+//============================================================
+prontera,162,168,4	script	Skill Point Girl	861,{
+set .buy,1000000;
+set .sell,1000;
+set .reset,5000;
+set @amt,0;
+mes "[Skill Point Girl]";
+	mes "Ola, "+strcharinfo(0)+", o que voce deseja fazer com seus pontos de habilidade?";
+	next;
+switch(select(" ~ Comprar pontos de habilidade: ~ Vender pontos de habilidade: ~ Resetar pontos de habilidade")){
+	case 1:
+		mes "^FF3355Cada ponto custara "+callfunc("F_InsertComma",.buy)+"z";
+		mes "^000000Quantos pontos de habilidade voce deseja comprar?";
+		mes "Voce tem: "+callfunc("F_InsertComma",Zeny)+"z";
+		input @amt;
+		if(@amt > 0){
+			if( Zeny < @amt*.buy){
+				next;
+				mes "Desculpe. Esses pontos custam "+callfunc("F_InsertComma",@amt*.buy)+"z. Você tem "+callfunc("F_InsertComma",Zeny)+"z";
+				dispbottom "Desculpe. Esses pontos custam "+callfunc("F_InsertComma",@amt*.buy)+"z. Você tem "+callfunc("F_InsertComma",Zeny)+"z";
+				close;
+				end;
+			}
+			if(Zeny >= @amt*.buy){
+				next;
+				mes "Voce ganhou "+@amt+" pontos de habilidade.";
+				dispbottom "Voce ganhou "+@amt+" pontos de habilidade.";
+				set SkillPoint,SkillPoint + @amt;
+				set Zeny, Zeny - @amt*.buy;
+				next;
+				mes "Obrigado, volte sempre!";
+				close;
+				end;
+			}
+		}
+		if( @amt < 1 ) {
+			next;
+			mes "Obrigado, volte sempre!";
+			close;
+			end;
+		}
+		end;
+	case 2:
+		mes "^3333AAPagamos "+callfunc("F_InsertComma",.sell)+"z por ponto de habilidade";
+		mes "^000000Quantos pontos de habilidade voce quer vender?";
+		input @amt;
+		if(@amt > 0){
+			if( SkillPoint < @amt){
+				next;
+				mes "Voce nao tem essa quantidade de pontos de habilidade";
+				dispbottom "Voce nao tem essa quantidade de pontos de habilidade";
+				close;
+				end;
+			};
+			if( SkillPoint >= @amt){
+				next;
+				mes "Voce vendeu "+@amt+" pontos de habilidade por "+callfunc("F_InsertComma",@amt*.sell)+"z";
+				dispbottom "Voce vendeu "+@amt+" pontos de habilidade por "+callfunc("F_InsertComma",@amt*.sell)+"z";
+				set SkillPoint,SkillPoint - @amt;
+				set Zeny, Zeny + ( @amt * .sell );
+				next;
+				mes "Obrigado, volte sempre!";
+				close;
+				end;
+			};
+		}
+		if( @amt < 1 ) {
+			next;
+			mes "Obrigado, volte sempre!";
+			close;
+			end;
+		}
+		end;
+	case 3:
+		mes "O reset dos pontos de habilidade custara "+callfunc("F_InsertComma",.reset)+"z";
+			if( Zeny < .reset){
+				next;
+				dispbottom "Desculpe. O reset custa "+callfunc("F_InsertComma",.reset)+"z. Você tem "+callfunc("F_InsertComma",Zeny)+"z";
+				mes "Desculpe. O reset custa "+callfunc("F_InsertComma",.reset)+"z. Você tem "+callfunc("F_InsertComma",Zeny)+"z";
+				close;
+				end;
+			}
+			if(Zeny >= .reset){
+				next;
+				mes "Ok meu bem, vamos resetar seus pontos de habilidade.";
+				mes "Distribua seus pontos de habilidade estrategicamente!";
+				set Zeny, Zeny - ( .reset );
+				ResetSkill;
+				next;
+				mes "Obrigado, volte sempre!";
+				close;
+				end;
+			}
+	
+	}
+}

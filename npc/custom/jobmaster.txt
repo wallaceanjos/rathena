@@ -16,7 +16,7 @@
 //= 2.0 Added 4th class [Lemongrass]
 //============================================================
 
-prontera,153,193,6	script	Job Master	123,{
+prontera,162,170,4	script	Job Master Girl	860,{
 function Get_Job_Equip;
 // Checks if the Player has the required level.
 // closes if not, returns if yes
@@ -277,7 +277,6 @@ function	Job_Menu	{
 		.@opt_cnt =  getarraysize(getarg(0));
 		if( .@opt_cnt <= 0 ) {
 			mes "No more jobs are available.";
-			close;
 		}
 
 		.@selected = 0; // Just a single job class given, no select needed
@@ -479,7 +478,7 @@ function	Get_Job_Equip	{
 
 OnInit:
 	// Initialisation, do not edit these
-	.NPCName$ = "[Job Master]";
+	.NPCName$ = "[Job Master Girl]";
 	
 	// Settings
 	.FourthClass = true;				// Enable fourth classes?
@@ -492,7 +491,7 @@ OnInit:
 	.BabyExpanded = true;				// Enable Baby Expanded classes: Ex. Baby Ninja, Baby Taekwon, etc.
 	.BabySummoner = true;				// Enable Baby Summoner?
 	.LastJob = true;					// Enforce linear class changes?
-	.SkillPointCheck = true;			// Force player to use up all skill points?
+	.SkillPointCheck = false;			// Force player to use up all skill points?
 	.Platinum = true;					// Get platinum skills automatically?
 	.GetJobEquip = false;				// Get job equipment (mostly weapons) on job change?
 
